@@ -22,3 +22,27 @@
 
 **[pi-dotfiles](https://github.com/rain-knows/pi-dotfiles)** — pi coding agent 配置与 `prompt-architect` 扩展，按能力门控的系统提示词分层。
 `JavaScript` `PowerShell`
+
+---
+
+## 一条链路怎么切分
+
+以 CostGraph 为例。模型只占一个格子，其余都是确定性代码：
+
+```mermaid
+flowchart LR
+    UI["React / Vite"] --> API["FastAPI<br/>HTTP · SSE"]
+    API --> Gate["主体 · 数据范围"]
+    Gate --> Q[("Run 队列")]
+    Q --> W["Worker"]
+    W --> G["LLM<br/>意图 · 槽位 · 澄清"]
+    W --> D["确定性服务<br/>校验 · 卷积 · 舍入"]
+    D --> Snap[("已发布快照")]
+    Snap --> API
+    classDef llm fill:#f6f8fa,stroke:#57606a,stroke-width:1px,color:#57606a
+    classDef det fill:#ffffff,stroke:#1f2328,stroke-width:2px
+    class G llm
+    class D det
+```
+
+金额、权限、批次关系、状态机与舍入由服务端代码和数据库约束负责，模型的输出不是事实来源。产出始终能追溯回源数据、工具调用和显式假设。
