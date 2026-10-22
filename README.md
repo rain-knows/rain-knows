@@ -45,7 +45,12 @@
 
 <br/>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=rain-knows&bg_color=0D1117&color=A855F7&line=6366F1&point=ffffff&area=true&hide_border=true&custom_title=%E6%8F%90%E4%BA%A4%E6%B4%BB%E5%8A%A8" width="96%" alt="activity graph" />
+<img src="https://github-readme-stats.vercel.app/api?username=rain-knows&show_icons=true&include_all_commits=true&rank_icon=github&hide_border=true&bg_color=0D1117&title_color=A855F7&icon_color=6366F1&text_color=c9d1d9" width="48%" alt="stats" />
+<img src="https://streak-stats.demolab.com?user=rain-knows&theme=tokyonight&hide_border=true&background=0D1117&ring=A855F7&fire=6366F1&currStreakLabel=A855F7&sideLabels=c9d1d9&dates=8b949e" width="48%" alt="streak" />
+
+<br/>
+
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=rain-knows&layout=compact&langs_count=8&hide_border=true&bg_color=0D1117&title_color=A855F7&text_color=c9d1d9" width="60%" alt="top languages" />
 
 <br/>
 
