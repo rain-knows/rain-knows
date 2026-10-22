@@ -22,7 +22,3 @@
 
 **[pi-dotfiles](https://github.com/rain-knows/pi-dotfiles)** — pi coding agent 配置与 `prompt-architect` 扩展，按能力门控的系统提示词分层。
 `JavaScript` `PowerShell`
-
----
-
-<img src="https://raw.githubusercontent.com/rain-knows/rain-knows/output/github-snake-dark.svg" width="100%" alt="" />
